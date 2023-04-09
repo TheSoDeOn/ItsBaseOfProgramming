@@ -6,3 +6,6 @@
 5	218	7027469228231109	CMakeFiles/laba14.dir/main.c.obj	d5bb9c5824abe4cc
 26	227	7027469228323770	CMakeFiles/laba14.dir/libs/data_structures/vector/vector.c.obj	8e542de4f736ea53
 227	474	7027469230825411	laba14.exe	6aa0ed3381fef2d3
+10	108	7027504294202600	CMakeFiles/laba14.dir/libs/data_structures/vector/vector.c.obj	8e542de4f736ea53
+2	114	7027504294259458	CMakeFiles/laba14.dir/main.c.obj	d5bb9c5824abe4cc
+114	250	7027504295615324	laba14.exe	6aa0ed3381fef2d3
