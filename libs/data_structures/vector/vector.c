@@ -18,6 +18,8 @@ vector createVector(size_t n) {
     return (vector) {data, 0, n};
 }
 
+
+
 void deleteVector(vector *v) {
     free(v->data);
     v->data = NULL;
@@ -36,6 +38,8 @@ void reserve(vector *v, size_t newCapacity) {
         deleteVector(v);
 }
 
+
+
 void clear(vector *v) {
     v->size = 0;
 }
@@ -44,17 +48,23 @@ void shrinkToFit(vector *v) {
     reserve(v, v->size);
 }
 
+
+
 bool isEmpty(vector *v) {
     return !v->size;
 }
+
+
 
 bool isFull(vector *v) {
     return v->size == v->capacity;
 }
 
+
 int getVectorValue(vector *v, size_t i) {
     return v->data[i];
 }
+
 
 void pushBack(vector *v, int x) {
     if (v->capacity == 0)
