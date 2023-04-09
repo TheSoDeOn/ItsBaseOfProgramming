@@ -3,4 +3,6 @@ project(laba14 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(laba14 main.c)
+add_executable(laba14 main.c libs/data_structures/vector/vector.c libs/data_structures/vector/vector.h)
+
+
